@@ -23,7 +23,7 @@ function updateStatistics() {
     
     // Update money and backers display
     totalMoneyText.textContent = `$${state.totalMoney.toLocaleString()}`;
-    totalBackersText.textContent = `$${state.totalBackers.toLocaleString()}`;
+    totalBackersText.textContent = `${state.totalBackers.toLocaleString()}`;
     
     // Update stands count
     left25.forEach(stand => stand.textContent = state.stands.bamboo.left);
