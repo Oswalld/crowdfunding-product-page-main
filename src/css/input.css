@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button{
+    @apply py-4 px-8 bg-moderateCyan hover:bg-[#147A73] text-white text-[14px] font-bold rounded-full;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.border-cyan{
+  @apply !border-moderateCyan
+}
